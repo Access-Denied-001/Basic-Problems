@@ -1,3 +1,9 @@
+""" 
+    This is an 'One dimensional peak finder' which finds peak of given list.
+    The elements are filled in increasing order till a particular number and then 
+    rest are filled in decreasing order.Eg.[1,2,3,4,5,3,2,1]
+    And we call a number a peak if it is greater than or equal to its neighbours.
+"""
 def naivepeak(L):
     n=len(L)
     peak=-10000000000231231231230124242422222222222222222222
