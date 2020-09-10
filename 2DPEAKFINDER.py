@@ -1,5 +1,8 @@
 import numpy
-
+""" 
+    This is 2D peak finder, with the defination that a certain value is a peak if it is greater than or equal to its four neighbours.
+    Eg. [[1,2,34],[4,5,6],[9,10,11]] Here 34 is the peak.
+"""
 
 def degradednaivepeak(L):
     n = len(L)
