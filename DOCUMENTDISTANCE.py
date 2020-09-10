@@ -1,4 +1,7 @@
 import math
+"""
+	This a Document Distance which uses two strings and tells us how much similar they are!!
+"""
 
 '''	
 	A good improvement here is to make a list of connectors and 
