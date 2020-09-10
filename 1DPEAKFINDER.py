@@ -3,6 +3,7 @@
     The elements are filled in increasing order till a particular number and then 
     rest are filled in decreasing order.Eg.[1,2,3,4,5,3,2,1]
     And we call a number a peak if it is greater than or equal to its neighbours.
+    By this defination we can guarantee that a peak will exist.
 """
 def naivepeak(L):
     n=len(L)
